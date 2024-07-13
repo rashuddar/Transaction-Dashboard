@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.transactions-statistics {
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(243, 209, 214);
+  height: 70vh;
+  border: 1px solid black;
+}
+
+.statistics-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background-color: white;
+  /* width: 30vw; */
+  border-radius: 10px;
+  /* color: white; */
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.statistics-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.statistics-item p {
+  padding: 5px;
+}
+
+.statistics-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: xxx-large;
+  font-weight: 800;
+}
